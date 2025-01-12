@@ -3,6 +3,7 @@ body {
   display: block;
   margin: 0;
   font-family: "Inter", serif;
+  background-color: #f3f3f3;
 }
 
 header {
@@ -30,6 +31,14 @@ nav {
   font-family: "Nunito";
   font-weight: 600;
   padding: 4px 30px;
+}
+
+.first-three-navbar-list a:hover {
+  color: #386391;
+}
+
+.active a {
+  color: #386391;
 }
 
 .navbar-collapse {
@@ -63,14 +72,31 @@ nav {
   border: 3px solid black;
 }
 
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+}
+
 .page-desc p {
   text-align: justify;
   line-height: 1.5;
+  line-height: 40px;
+  padding: 40px 65px;
 }
 
 .page-desc h1 {
   font-weight: 700;
-  font-size: 32px;
   padding-top: 50px;
   text-align: center;
 }
@@ -79,10 +105,30 @@ nav {
   font-weight: 200;
 }
 
-.page-desc p {
-  font-size: 18px;
-  line-height: 40px;
-  padding: 40px 65px;
+.get-started-btn {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.get-started-btn i {
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.get-started {
+  background: #2862a1;
+  border: 2px solid #000000;
+  border-radius: 32px;
+  padding: 10px 20px;
+  margin: 5px 0 0 30px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.get-started:hover {
+  background: #7392b4;
+  color: black;
 }
 
 .homepage-2-columns-grid {
@@ -95,14 +141,61 @@ nav {
 .homepage-2-columns-grid h3 {
   font-weight: 600;
   letter-spacing: 0.18em;
-  font-size: 20px;
 }
 
 .homepage-2-columns-grid p {
   line-height: 30px;
   font-weight: 300;
-  font-size: 18px;
   padding: 25px 60px;
+}
+
+.services-homepage {
+  background: #ffffff;
+  padding: 25px 80px;
+}
+
+.services-homepage h2 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.services-homepage p {
+  text-align: center;
+  line-height: 30px;
+  padding: 40px 65px;
+  color: #272142;
+}
+
+.main-page-4-columns {
+  padding: 20px 80px 10px 100px;
+}
+
+.main-page-4-columns h3 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.main-page-4-columns-arrow {
+  margin-left: 10px;
+}
+
+.main-page-4-columns p {
+  font-weight: 200;
+  line-height: 29px;
+  color: #000000;
+  padding: 40px 20px 15px 0;
+}
+
+.main-page-4-columns .card {
+  padding: 30px 0 10px;
+  background: #7392b4;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  margin-right: 30px;
+}
+
+.previous-work {
+  background-color: ;
 }
 
 footer {
@@ -119,7 +212,7 @@ footer {
   grid-gap: 20px;
 }
 
-.grid-3-columns-with-first-narrow {
+.footer-3-columns-grid {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -222,8 +315,32 @@ footer .newsletter p {
 }
 
 @media (max-width: 960px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
   .homepage-2-columns-grid {
     grid-template-columns: 1fr;
+  }
+
+  .homepage-2-columns-grid p {
+    padding: 25px 0px;
+  }
+
+  .page-desc p {
+    padding: 40px 15px;
   }
 
   header {
@@ -245,6 +362,23 @@ footer .newsletter p {
 
   .logo-info {
     padding-left: 0px;
+  }
+  .services-homepage {
+    padding: 25px 15px;
+  }
+
+  .main-page-4-columns .card {
+    margin-right: 0px;
+  }
+
+  .main-page-4-columns {
+    padding: 0px;
+  }
+
+  .services-homepage p {
+    padding: 30px 0px;
+    text-align: left;
+    margin: 0;
   }
 
   footer .logo-info img {
