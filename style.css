@@ -194,8 +194,56 @@ p {
   margin-right: 30px;
 }
 
-.previous-work {
-  background-color: ;
+.previous-work-slides {
+  padding: 60px 100px 40px 30px;
+}
+
+.previous-work-slides .carousel-inner {
+  padding: 40px;
+  margin: 30px 0 30px 30px;
+  background: #ffffff;
+  opacity: 0.8;
+}
+
+.previous-work-slides .carousel {
+  padding-left: 90px;
+  padding-right: 150px;
+}
+
+.previous-work-slides .carousel-inner p {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.lower-banner {
+  text-align: right;
+  background: linear-gradient(
+    107deg,
+    rgba(30, 97, 170, 0.785) 27.4%,
+    rgb(5, 161, 161) 92.7%
+  );
+  padding: 35px 30px 70px;
+  margin-bottom: 40px;
+}
+
+.lower-banner h2 {
+  font-weight: 600;
+  line-height: 1.6;
+  font-size: 36px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.lower-banner a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: #ffffff;
+  border-radius: 30px;
+  color: #386391;
+  border: 1px solid #386391;
+  font-weight: 500;
 }
 
 footer {
@@ -262,7 +310,7 @@ footer .contact p a {
 
 footer .social-media-icon i {
   font-size: 25px;
-  color: #7392b4;
+  color: #1e9ca4;
   background-color: white;
   padding: 10px 12px;
   margin: 0 8px;
@@ -272,7 +320,7 @@ footer .social-media-icon i {
 
 footer i:hover {
   color: white;
-  background-color: #7392b4;
+  background-color: #1e9ca4;
 }
 
 footer .contact {
@@ -379,6 +427,41 @@ footer .newsletter p {
     padding: 30px 0px;
     text-align: left;
     margin: 0;
+  }
+
+  .previous-work-slides {
+    padding: 30px 0px;
+    margin: 0;
+  }
+
+  .previous-work-slides h2 {
+    margin-left: 15px;
+  }
+
+  .previous-work-slides .carousel {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .previous-work-slides .carousel-inner {
+    padding: 30px 20px 130px;
+    margin: 30px 0;
+  }
+
+  .previous-work-slides .carousel-inner .desc-small {
+    margin-top: 40px;
+  }
+
+  .previous-work-slides .carousel-inner .desc-small h3 {
+    margin-bottom: 20px;
+  }
+
+  .lower-banner h2 {
+    font-size: 20px;
+  }
+
+  .lower-banner a {
+    font-size: 14px;
   }
 
   footer .logo-info img {
