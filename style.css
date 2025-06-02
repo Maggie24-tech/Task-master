@@ -223,7 +223,7 @@ p {
     rgb(5, 161, 161) 92.7%
   );
   padding: 35px 30px 70px;
-  margin-bottom: 40px;
+  margin: 50px 0 40px;
 }
 
 .lower-banner h2 {
@@ -244,6 +244,24 @@ p {
   color: #386391;
   border: 1px solid #386391;
   font-weight: 500;
+}
+
+.FAQ-video {
+  background-color: white;
+  padding: 60px 0;
+}
+
+.FAQ-video video {
+  background-color: #3c9ac4;
+  padding: 40px 20px;
+}
+
+.FAQ-video h2 {
+  font-size: 48px;
+  text-align: left;
+  margin-top: 50%;
+  margin-left: 30px;
+  font-weight: 600;
 }
 
 footer {
@@ -464,6 +482,26 @@ footer .newsletter p {
     font-size: 14px;
   }
 
+  .FAQ-video video {
+    width: 260px;
+    height: 500px;
+    margin-left: 15px;
+    text-align: left;
+    padding: 0px 20px 48px;
+  }
+
+  .FAQ-video {
+    text-align: left;
+    padding: 60px 0 0;
+  }
+
+  .FAQ-video h2 {
+    font-size: 22px;
+    text-align: right;
+    margin-top: -80%;
+    padding-right: 25px;
+  }
+
   footer .logo-info img {
     width: 40px;
     display: block;
@@ -510,5 +548,22 @@ footer .newsletter p {
 
   .newsletter-form input {
     font-size: 12px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .FAQ-video video {
+    width: 360px;
+    height: 500px;
+    margin-left: 15px;
+    text-align: left;
+    padding: 30px 20px 48px;
+  }
+
+  .FAQ-video h2 {
+    font-size: 46px;
+    text-align: right;
+    margin-top: -50%;
+    padding-right: 195px;
   }
 }
