@@ -6,7 +6,7 @@ body {
   background-color: #f3f3f3;
 }
 
-header {
+.banner-for-Homepage-only {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)),
     url("/images/homepage-banner.jpg");
   background-repeat: no-repeat;
@@ -380,6 +380,83 @@ footer .newsletter p {
   padding: 0 20px 0 20px;
 }
 
+.about-service-contact-nav {
+  width: 100%;
+  padding: 100px 0px 5px;
+  margin-bottom: 10px;
+  border: 0px solid #000000;
+  background: #d9d9d9;
+  box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15),
+    0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.about-service-contact-nav nav {
+  margin: -90px 30px -190px 30px;
+}
+
+.About-services-connect-upper-banner {
+  background: url(images/About-service-connect\ banner.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 40px 50px 20px;
+  color: white;
+  font-family: "Inter";
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 50px;
+}
+
+.About-services-connect-upper-banner h2 {
+  font-size: 35px;
+}
+
+.aboutp-2-columns-grid {
+  grid-template-columns: 2fr 2fr;
+}
+
+.aboutp-first-grid {
+  padding: 50px 200px 0px 0;
+  font-family: "Nunito";
+  font-weight: 400;
+}
+
+.aboutp-first-img {
+  padding-left: 150px;
+  width: 90%;
+}
+
+.aboutp-first-grid h1 {
+  font-size: 38px;
+  text-align: center;
+}
+
+.aboutp-first-grid hr {
+  opacity: 0.1;
+  border: 1px solid black;
+  width: 56%;
+  margin: 20px auto;
+}
+
+.aboutp-first-grid p {
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.your-one-stop {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: black;
+
+  padding: 20px 0;
+
+  margin: 0 auto;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 20px;
@@ -409,7 +486,7 @@ footer .newsletter p {
     padding: 40px 15px;
   }
 
-  header {
+  .banner-for-Homepage-only {
     height: 580px;
   }
 
